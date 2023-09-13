@@ -18,7 +18,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use(function(req, res, next) {
-  res.header('Access-Control-Allow-Origin', 'https://stellar-chebakia-44f98b.netlify.app/');
+  res.header('Access-Control-Allow-Origin', 'https://stellar-chebakia-44f98b.netlify.app/login');
   next();
 });
 
